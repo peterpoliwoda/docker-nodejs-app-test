@@ -1,0 +1,22 @@
+{
+  "name": "docker-nodejs-app-test",
+  "version": "1.0.0",
+  "description": "Test dockerfile app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterpoliwoda/docker-nodejs-app-test.git"
+  },
+  "author": "Peter Poliwoda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterpoliwoda/docker-nodejs-app-test/issues"
+  },
+  "homepage": "https://github.com/peterpoliwoda/docker-nodejs-app-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
